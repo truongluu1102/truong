@@ -1,0 +1,56 @@
+.menu
+	{
+		overflow: inherit;
+	}
+@media screen and (min-width: 576px){
+	.search
+	{
+		width:250px;
+	}
+	.search:hover	
+	{
+		width:300px !important;
+	}
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #28A745;	
+        z-index: 1;
+    }
+
+    .drop:hover {
+        background-color: #1c7430;
+    }
+
+    .is-active:hover {
+        background-color: #1c7430;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+	
+.is-active
+	{
+		padding:10px 0px;
+		display: inline;
+	}
+	.menu-drop
+	{
+		margin-top:10px;
+	}
+.drop
+	{
+		
+	
+}
+}
+.drop:hover {
+    background-color: #1c7430;
+
+}

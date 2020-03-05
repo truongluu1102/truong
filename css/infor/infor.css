@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+.infor
+{
+	background: rgba(255,255,255,1.00);
+}
+.infor_container
+{
+	padding:20px 0px;
+	height: 140px;
+}
+.float-left img,.infor_logo
+{
+	width:250px;
+}
+.infor-item
+{
+	margin-left: 30px;
+}
+@media screen and (max-width: 1000px){
+.infor-item:nth-child(3)
+{
+display: none;
+}
+	
+}
+@media screen and (max-width: 768px){
+.infor-item:nth-child(3)
+{
+display: none;
+}
+	.infor-item:nth-child(2)
+{
+display: none;
+}
+}
+@media screen and (max-width: 540px){
+.infor-item
+{
+display: none;
+}
+.infor_logo
+	{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+	}
+
+
+}

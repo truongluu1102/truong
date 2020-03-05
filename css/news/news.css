@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+
+.news_img
+{
+	height:200px;
+	object-fit: cover;
+}
+.info
+{
+	color: rgba(255,0,4,1.00);
+}
+
+.card-body {
+	padding-left: 0 !important;
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.contact
+{
+	height:50px;
+	margin-bottom: 20px;
+}
+.bottom
+{
+	background: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
+}
+
+.bottom_title
+{
+	 background-color: #1B1B1B;
+    border-bottom: #74D62A 4px solid;
+    width:50px;
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+.icon:nth-child(1)
+{
+	     background-color: #3B5998;
+}
+.icon:nth-child(2)
+{
+	   background-color: #1DCAFF;
+}
+.icon:nth-child(3)
+{
+	 background-color: #DD4B39;
+}   

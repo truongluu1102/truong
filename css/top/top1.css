@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.hotline-image
+{
+	float:left;
+}
+.hotline-infor
+{
+	float: left;
+	padding:2px;
+	margin-left: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+.hotline-hn
+	{
+		float:left;
+		
+	}
+	.hotline-hcm
+	{
+		float:left;
+		margin-left: 15px;
+	}
+	
+}
+@media screen and (max-width: 1199px) {
+.hotline-infor
+	{
+		width:233px;
+	}
+	.hotline-image
+{
+	padding:10px 0px;
+}
+	
+}
+
+@media screen and (max-width: 800px){
+.top1
+	{
+	width: 270px;
+	}
+.hotline-infor
+	{
+		width:210px;
+		font-size: 14px;
+	}
+}

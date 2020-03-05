@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+.admin_upload_image
+{
+	overflow: hidden;
+	background: rgba(0,0,0,1.00);
+	text-align: center;
+	
+}
+.admin_upload_image,#upload_image
+{
+	
+	height:413px;
+	cursor: pointer;
+	
+	
+}
+#upload_image:hover
+{
+	transform: scale(1.03);
+}
+#upload_content
+{
+	resize: none;
+}
+#upload_file
+{
+	display: none;
+}

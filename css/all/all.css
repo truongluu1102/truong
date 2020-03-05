@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	background-image: url("/image/background.png");
+    background-repeat: repeat;
+    background-position: center;
+
+	
+}
+a
+{
+	  text-decoration: none;
+}
+ul
+{
+	list-style-type: none;
+}
+li
+{
+	float:left;
+}
+input:focus
+{	
+	outline: none;
+	
+}
+
+*
+{
+	margin:0;
+	padding:0;
+	border:none;
+	position: relative;
+	transition: 0.5s;
+}
+textarea
+{
+	resize: none;
+	
+}
+.title
+{
+	margin-top:20px;
+	border-bottom: 3px solid rgba(54,180,50,1.00);
+	border-radius: 4px;
+	height:50px;
+	
+}
+.title div
+{
+	font-size: 30px;
+	font-weight: bold;
+	
+	
+}
+.title a
+{
+	font-size: 15px;
+	font-weight: normal;
+	
+}
+.mid
+{
+	overflow: hidden;
+	background: rgba(255,255,255,1.00);
+}
+
+
+@media  (min-width: 576px) { 
+.mid
+{
+	width:576px;
+	margin: auto;
+	
+}
+}
+
+
+@media (min-width: 768px) { 
+	.mid
+{
+	width:768px;
+	margin: auto;
+	
+}
+}
+
+
+@media (min-width: 992px) { 
+.mid
+{
+	width:992px;
+	margin: auto;
+	
+}
+
+}
+@media (min-width: 1080px) { 
+.mid
+{
+	width:1200px;
+	margin: auto;
+	
+}
+
+}
+
+

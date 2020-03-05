@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+
+.products
+{
+	margin-top: 10px;
+}
+.product_item img
+{
+	object-fit: cover;
+	height:220px;
+}
+.product_item img:hover
+{
+	 opacity: 0.5;
+
+	
+}
+.product_item
+{
+	margin-bottom: 30px;
+	
+}
+#fruit_name
+{
+	font-weight: bold;
+	font-size: 20px;
+}
+#fruit_cost
+{
+	color:rgba(176,94,96,1.00);
+  text-decoration: line-through;
+}
+#fruit_sale
+{
+	color:rgba(255,0,4,1.00);
+	font-weight: bold;
+
+}
+
+@media  (max-width: 540px){
+.products_title a
+	{
+		display: none;
+	}
+}
+

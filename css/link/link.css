@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mucluc a
+{
+	text-decoration: none;
+	color: rgba(0,0,0,1.00);
+	font-size: 20px;
+}
